@@ -51,7 +51,6 @@ public enum DiscordClientOption : CustomStringConvertible, Equatable {
     case shardingInfo(DiscordShardInformation)
 
     /// The settings for voice engines. See `DiscordVoiceEngineConfiguration` for defaults.
-    case voiceConfiguration(DiscordVoiceEngineConfiguration)
 
     // MARK: Properties
 
@@ -67,7 +66,6 @@ public enum DiscordClientOption : CustomStringConvertible, Equatable {
         case .rateLimiter:          return "rateLimiter"
         case .shardingInfo:         return "shardingInfo"
         case .pruneUsers:           return "pruneUsers"
-        case .voiceConfiguration:   return "voiceConfiguration"
         }
     }
 
